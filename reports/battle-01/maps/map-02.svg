@@ -24,7 +24,7 @@
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.78207544"
      inkscape:cx="125.3076"
-     inkscape:cy="607.99761"
+     inkscape:cy="403.41377"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -1147,10 +1147,10 @@
     <path
        id="arrow-shoot"
        inkscape:label="Shooting arrow (edit nodes with N to lengthen)"
-       d="M 630.47929,615.36641 338.10663,509.48459"
+       d="M 142.03436,586.87794 625.71452,509.50138"
        fill="none"
        stroke="#1b1b1b"
-       stroke-width="5.83199"
+       stroke-width="6.41241"
        stroke-linecap="butt"
        stroke-dasharray="14, 10"
        stroke-dashoffset="0"
@@ -1170,14 +1170,26 @@
     <g
        id="clash-4"
        inkscape:label="Impact / clash (duplicate me)"
-       transform="matrix(0,-0.57680268,0.54731981,0,-7.9117499,823.79321)">
+       transform="matrix(0,-0.57680268,0.54731981,0,333.48754,805.89212)">
       <polygon
-         points="514,568 533,560.8 520.2,545 540.2,548.2 537,528.2 552.8,541 560,522 567.2,541 583,528.2 579.8,548.2 599.8,545 587,560.8 606,568 587,575.2 599.8,591 579.8,587.8 583,607.8 567.2,595 560,614 552.8,595 537,607.8 540.2,587.8 520.2,591 533,575.2 "
+         points="520.2,545 540.2,548.2 537,528.2 552.8,541 560,522 567.2,541 583,528.2 579.8,548.2 599.8,545 587,560.8 606,568 587,575.2 599.8,591 579.8,587.8 583,607.8 567.2,595 560,614 552.8,595 537,607.8 540.2,587.8 520.2,591 533,575.2 514,568 533,560.8 "
          fill="#ffd400"
          stroke="#c4161c"
          stroke-width="4"
          stroke-linejoin="round"
          id="polygon2-8" />
+    </g>
+    <g
+       id="clash-4-2"
+       inkscape:label="Impact / clash (duplicate me)"
+       transform="matrix(0,-0.57680268,0.54731981,0,-183.18071,937.81052)">
+      <polygon
+         points="579.8,548.2 599.8,545 587,560.8 606,568 587,575.2 599.8,591 579.8,587.8 583,607.8 567.2,595 560,614 552.8,595 537,607.8 540.2,587.8 520.2,591 533,575.2 514,568 533,560.8 520.2,545 540.2,548.2 537,528.2 552.8,541 560,522 567.2,541 583,528.2 "
+         fill="#ffd400"
+         stroke="#c4161c"
+         stroke-width="4"
+         stroke-linejoin="round"
+         id="polygon2-8-2" />
     </g>
   </g>
   <g
