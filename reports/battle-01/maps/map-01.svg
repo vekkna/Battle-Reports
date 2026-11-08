@@ -23,8 +23,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.78207544"
-     inkscape:cx="552.37638"
-     inkscape:cy="646.35708"
+     inkscape:cx="553.65503"
+     inkscape:cy="441.77324"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -97,6 +97,32 @@
          d="M 0,0 3.5,1.75 0,3.5 Z"
          fill="#c4161c"
          id="path1-5-4" />
+    </marker>
+    <marker
+       id="arrowhead-45"
+       orient="auto"
+       markerWidth="6"
+       markerHeight="6"
+       refX="2.5"
+       refY="1.75"
+       style="overflow:visible">
+      <path
+         d="M 0,0 3.5,1.75 0,3.5 Z"
+         fill="#c4161c"
+         id="path1-51" />
+    </marker>
+    <marker
+       id="arrowhead-2"
+       orient="auto"
+       markerWidth="6"
+       markerHeight="6"
+       refX="2.5"
+       refY="1.75"
+       style="overflow:visible">
+      <path
+         d="M 0,0 3.5,1.75 0,3.5 Z"
+         fill="#c4161c"
+         id="path1-7" />
     </marker>
   </defs>
   <g
@@ -750,7 +776,7 @@
     <g
        id="unit-doom-wheel"
        inkscape:label="Doom Wheel"
-       transform="rotate(86.856087,-33.965748,163.06697)">
+       transform="rotate(86.856087,23.934255,210.70606)">
       <rect
          x="-20"
          y="-17"
@@ -774,6 +800,34 @@
          paint-order="stroke"
          id="text36"
          transform="rotate(-176.8561,-1.375,25.034)">Doom Wheel</text>
+    </g>
+    <g
+       id="unit-doom-wheel-4"
+       inkscape:label="Doom Wheel"
+       transform="rotate(86.856087,-51.805642,223.70432)">
+      <rect
+         x="-16.91444"
+         y="-73.17588"
+         width="40"
+         height="34"
+         rx="3"
+         fill="#8a5a2b"
+         stroke="#000000"
+         stroke-width="2"
+         id="rect36-8" />
+      <text
+         x="-4.3795917e-05"
+         y="31.188826"
+         font-size="11px"
+         font-weight="bold"
+         text-anchor="middle"
+         font-family="sans-serif"
+         fill="#000000"
+         stroke="#ffffff"
+         stroke-width="3"
+         paint-order="stroke"
+         id="text36-8"
+         transform="rotate(-176.8561)">RatOgres</text>
     </g>
     <g
        id="unit-stormvermin"
@@ -1060,11 +1114,29 @@
     <path
        id="arrow-example"
        inkscape:label="Example arrow (duplicate me)"
-       d="m 144.40704,95.228667 c 34.64495,-12.869493 61.2798,-17.94878 103.00117,-23.817519"
+       d="M 126.50595,95.228667 C 161.1509,82.359174 187.78575,77.279887 229.50712,71.411148"
        fill="none"
        stroke="#c4161c"
        stroke-width="10"
        marker-end="url(#arrowhead)" />
+    <path
+       id="arrow-example-11"
+       inkscape:label="Example arrow (duplicate me)"
+       d="M 76.300807,198.39135 C 110.94576,185.52186 137.58061,180.44257 179.30198,174.57383"
+       fill="none"
+       stroke="#c4161c"
+       stroke-width="10"
+       marker-end="url(#arrowhead-45)"
+       style="marker-end:url(#arrowhead-45)" />
+    <path
+       id="arrow-example-14"
+       inkscape:label="Example arrow (duplicate me)"
+       d="M 67.381629,292.42513 C 102.02658,279.55563 128.66143,274.47635 170.3828,268.60761"
+       fill="none"
+       stroke="#c4161c"
+       stroke-width="10"
+       marker-end="url(#arrowhead-2)"
+       style="marker-end:url(#arrowhead-2)" />
     <path
        id="arrow-example-8"
        inkscape:label="Example arrow (duplicate me)"
