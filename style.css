@@ -232,10 +232,16 @@ figure.map {
 
 /* Phone: one column */
 @media (max-width: 700px) {
+  /* Phone: no grid at all, just stack the photo(s) above the caption */
   .turn,
   .turn:nth-of-type(odd) {
-    grid-template-columns: minmax(0, 1fr);
+    display: block;
     margin: 1.5rem 1rem;
+  }
+
+  .turn > img,
+  .turn > .photos {
+    margin-bottom: 0.5rem;
   }
 
   .turn:nth-of-type(odd) > img,
