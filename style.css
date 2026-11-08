@@ -243,3 +243,76 @@ figure.map {
     font-size: 2.6rem;
   }
 }
+/* ---------- Site navigation ---------- */
+
+/* "All battle reports" link at the top of each report */
+.topnav {
+  max-width: var(--max-width);
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.topnav a { color: #000; text-decoration: none; border-bottom: 3px solid var(--red); }
+.topnav a:hover { background: var(--yellow); }
+
+/* Previous / next links at the bottom of each report */
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.5rem 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+}
+.pager a { color: #000; text-decoration: none; border-bottom: 3px solid var(--red); padding-bottom: 2px; }
+.pager a:hover { background: var(--yellow); }
+.pager .all { margin: 0 auto; }
+.pager .prev { margin-right: auto; }
+.pager .next { margin-left: auto; }
+
+/* ---------- Home page (list of reports) ---------- */
+.tagline {
+  margin: 0.4rem 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--yellow);
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem;
+}
+.card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background: var(--tint);
+  border: 3px solid #000;
+  box-shadow: 5px 5px 0 var(--red);
+  transition: transform 0.1s;
+}
+.card:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--red); }
+.card img { border: 0; outline: 0; box-shadow: none; aspect-ratio: 4 / 3; object-fit: cover; }
+.card-text { padding: 0.8rem 1rem 1rem; }
+.card h2 { border: 0; margin: 0 0 0.3rem; font-size: 1.5rem; }
+.card .meta {
+  margin: 0 0 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--red);
+}
+.card p { margin: 0 0 0.4rem; }
